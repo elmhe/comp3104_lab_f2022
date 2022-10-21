@@ -6,5 +6,6 @@ deploy:
   skip_cleanup: true
   github_token: $github_token
   local_dir: build
+  repo: https://github.com/elmhe/comp3104_lab_f2022.git
   on:
     branch: master
